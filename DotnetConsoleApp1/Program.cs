@@ -9,7 +9,7 @@ Console.WriteLine(string.Join("|", a));
 
 
 List<string> bb = new();
-bb.Append("ccc");
-bb.Append("ddd");
+bb.Add("ccc");
+bb.Add("ddd");
 
 Console.WriteLine(string.Join("|", bb));
