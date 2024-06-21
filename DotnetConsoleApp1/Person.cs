@@ -2,7 +2,7 @@ namespace DotnetConsoleApp1
 {
     class Person
     {
-        int id { get; set; }
-        string name { get; set; }
+        public int Id { get; set; }
+        public string Name { get; set; }
     }
 }
