@@ -1,0 +1,15 @@
+D:\workspace\playground\DotnetConsoleApp1\obj\Debug\net8.0\DotnetConsoleApp1.GeneratedMSBuildEditorConfig.editorconfig
+D:\workspace\playground\DotnetConsoleApp1\obj\Debug\net8.0\DotnetConsoleApp1.AssemblyInfoInputs.cache
+D:\workspace\playground\DotnetConsoleApp1\obj\Debug\net8.0\DotnetConsoleApp1.AssemblyInfo.cs
+D:\workspace\playground\DotnetConsoleApp1\obj\Debug\net8.0\DotnetConsoleApp1.csproj.CoreCompileInputs.cache
+D:\workspace\playground\DotnetConsoleApp1\obj\Debug\net8.0\DotnetConsoleApp1.sourcelink.json
+D:\workspace\playground\DotnetConsoleApp1\bin\Debug\net8.0\DotnetConsoleApp1.exe
+D:\workspace\playground\DotnetConsoleApp1\bin\Debug\net8.0\DotnetConsoleApp1.deps.json
+D:\workspace\playground\DotnetConsoleApp1\bin\Debug\net8.0\DotnetConsoleApp1.runtimeconfig.json
+D:\workspace\playground\DotnetConsoleApp1\bin\Debug\net8.0\DotnetConsoleApp1.dll
+D:\workspace\playground\DotnetConsoleApp1\bin\Debug\net8.0\DotnetConsoleApp1.pdb
+D:\workspace\playground\DotnetConsoleApp1\obj\Debug\net8.0\DotnetConsoleApp1.dll
+D:\workspace\playground\DotnetConsoleApp1\obj\Debug\net8.0\refint\DotnetConsoleApp1.dll
+D:\workspace\playground\DotnetConsoleApp1\obj\Debug\net8.0\DotnetConsoleApp1.pdb
+D:\workspace\playground\DotnetConsoleApp1\obj\Debug\net8.0\DotnetConsoleApp1.genruntimeconfig.cache
+D:\workspace\playground\DotnetConsoleApp1\obj\Debug\net8.0\ref\DotnetConsoleApp1.dll
