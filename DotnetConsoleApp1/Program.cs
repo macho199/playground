@@ -4,7 +4,7 @@ using DotnetConsoleApp1;
 Console.WriteLine("Hello, World!");
 
 //string[] a = ["aaa", "bbb"];
-string[] a = new string() { "aaa", "bbb" };
+string[] a = { "aaa", "bbb" };
 
 Console.WriteLine(string.Join("|", a));
 
