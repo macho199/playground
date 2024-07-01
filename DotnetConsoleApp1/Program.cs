@@ -16,3 +16,6 @@ bb.Add("ccc");
 bb.Add("ddd");
 
 Console.WriteLine(string.Join("|", bb));
+
+string[] ccc = {"kk", "uu"};
+Console.WriteLine(string.Join("|", ccc));
