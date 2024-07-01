@@ -28,11 +28,18 @@ string input = "~!@#$%^&*()_+-=`";
 //input = Regex.Replace(input, pattern, String.Empty);
 
 // 이모지 및 특수 문자 제거 패턴 (단, ^는 제외)
-string pattern = @"([\uD800-\uDBFF][\uDC00-\uDFFF])|([\u2600-\u26FF])|([\u2700-\u27BF])|([\u200D])|([\uFE0F])|([\p{Cs}\p{So}\p{Cn}\p{Co}\p{Sk}])";
+//string pattern = @"([\uD800-\uDBFF][\uDC00-\uDFFF])|([\u2600-\u26FF])|([\u2700-\u27BF])|([\u200D])|([\uFE0F])|([\p{Cs}\p{So}\p{Cn}\p{Co}\p{Sk}])";
 // 특수 문자 범위에서 ^를 제외한 문자 제거
-string specialPattern = @"[^\x00-\x7F^\^]";
-string result = Regex.Replace(input, pattern, String.Empty);
-result = Regex.Replace(result, specialPattern, String.Empty);
+//string specialPattern = @"[^\x00-\x7F^\^]";
+//string result = Regex.Replace(input, pattern, String.Empty);
+//result = Regex.Replace(result, specialPattern, String.Empty);
+
+// 이모지 및 특수 문자 제거 패턴 (단, ^는 제외)
+       // \u200D와 \uFE0F는 Zero Width Joiner 및 Variation Selector
+       // Cs, So, Cn, Co, Sk는 이모지 및 심볼 관련 유니코드 카테고리
+       string pattern = @"([\uD800-\uDBFF][\uDC00-\uDFFF])|([\u2600-\u26FF])|([\u2700-\u27BF])|([\u200D])|([\uFE0F])|([^\x00-\x7F&&[^\^]])";
+       // 유니코드 블록 또는 범위를 포함하는 모든 문자 제거
+       string result = Regex.Replace(input, pattern, String.Empty);
 
 Console.WriteLine(result);
 
