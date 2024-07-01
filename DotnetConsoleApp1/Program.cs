@@ -1,5 +1,6 @@
 ﻿// See https://aka.ms/new-console-template for more information
 using DotnetConsoleApp1;
+using System.Text.RegularExpressions;
 
 Console.WriteLine("Hello, World!");
 
@@ -19,3 +20,10 @@ Console.WriteLine(string.Join("|", bb));
 
 string[] ccc = {"kk", "uu"};
 Console.WriteLine(string.Join("|", ccc));
+
+string input = "~!@#$%^&*()_+-=`";
+string pattern = @"([\uD800-\uDBFF][\uDC00-\uDFFF])|([\u2600-\u26FF])|([\u2700-\u27BF])|([\u200D])|([\uFE0F])|([\p{Cs}\p{So}\p{Cn}\p{Co}\p{Sk}])";
+input = Regex.Replace(input, pattern, String.Empty);
+
+Console.WriteLine(input);
+
