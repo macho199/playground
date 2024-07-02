@@ -41,8 +41,10 @@ string input = "~!@#$%^&*()_+-=`";
        // 유니코드 블록 또는 범위를 포함하는 모든 문자 제거
        //string result = Regex.Replace(input, pattern, String.Empty);
 // 모든 이모지, 특수 문자, ZWJ 시퀀스를 제거하는 정규 표현식 패턴 (단, ^는 제외)
-string pattern = @"([\uD800-\uDBFF][\uDC00-\uDFFF])|([\u2600-\u26FF])|([\u2700-\u27BF])|([\u200D])|([\uFE0F])|([\p{Cs}\p{So}\p{Cn}\p{Co}])";
-input = Regex.Replace(input, pattern, String.Empty);
+//string pattern = @"([\uD800-\uDBFF][\uDC00-\uDFFF])|([\u2600-\u26FF])|([\u2700-\u27BF])|([\u200D])|([\uFE0F])|([\p{Cs}\p{So}\p{Cn}\p{Co}]])";
+//input = Regex.Replace(input, pattern, String.Empty);
+
+string input = "";
 
 Console.WriteLine(input);
 
